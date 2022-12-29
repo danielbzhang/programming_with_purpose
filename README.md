@@ -1,1 +1,3 @@
-# programming_with_purpose
+## Computer Science: Programming with a Purpose
+#### Princeton University
+
