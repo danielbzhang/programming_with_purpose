@@ -5,16 +5,12 @@ public class BandMatrix {
 
     for (int i = 0; i < n; i++) {
       for (int j = 0; j < n; j++) {
-        if (j != 0)
-          System.out.print(" ");
         if (Math.abs(i - j) > width) {
           System.out.print("0");
         } else {
           System.out.print("*");
         }
-        // System.out.print(" ");
-        if (j != n)
-          System.out.print(" ");
+        System.out.print(" ");
       }
       System.out.println();
     }
